@@ -46,6 +46,27 @@ app.post('/api/notes/', (req, res) => {
 
 // Delete let idOfNoteToDelete = req.params.id
 
+app.delete('/api/notes/:id', (req, res) => {
+  var id = req.params.id;
+  app.disable('/api/notes').remove ({
+    id: id
+  });
+  return res.status(201).end();
+ 
+
+
+
+
+  //idOfNoteToDelete = idOfNoteToDelete.filter (({ id }) => id !== req.params.id);
+  //fs.writeFileSync('./db/db.json', JSON.stringify(notes));
+  //res.json(notes);
+  
+
+  //idOfNoteToDelete = idOfNoteToDelete.filter (({id}) => id !== req.params.id);
+  //fs.writeFileSync('./db/db.json', JSON.stringify(notes));
+  //res.json(notes);
+
+//})
 
 // CATCHALL HTML ROUTE
 app.get('*', (req, res) => { 
@@ -55,4 +76,4 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, ()=>
   console.log(`App listening at http://localhost:${PORT}`))
-
+})
