@@ -8,6 +8,9 @@
 
 ## https://github.com/beffylaureen/note-taker
 
-## deployed link
+## Heroku git URL  https://git.heroku.com/easy-note-taker.git
 
-## <img src="./" alt = "Finished Application"/>
+
+## <img src="./Assets/Screenshot 2023-08-03 at 8.34.38 PM.png" alt = "Finished Application"/>
+## <img src="./Assets/Screenshot 2023-08-03 at 8.35.54 PM.png" alt = "Finished Application 2"/>
+## <img src="./Assets/Screenshot 2023-08-03 at 8.39.21 PM.png" alt = "Finished Application 3"/>
